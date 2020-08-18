@@ -1,0 +1,92 @@
+.App {
+  margin: 0;
+  padding: 0;
+}
+
+.colorb {
+  background-color: #a7d0c8;
+}
+.margin {
+  margin-left: 1.5%;
+}
+
+.tam {
+  height: 1%;
+}
+
+.contenido {
+  padding: 1%;
+}
+
+.quiz {
+  margin-left: 3%;
+  max-width: 100%;
+  width: 80%;
+}
+
+.react-calendar {
+  width: 410px;
+  max-width: 100%;
+  background: white;
+  border: 1px solid #a0a096;
+  font-family: Arial, Helvetica, sans-serif;
+  /* line-height: 1.125em; */
+}
+.flex {
+  display: grid;
+}
+
+.size {
+  width: 28%;
+}
+
+.sizelogo {
+  height: 239px;
+}
+
+.nav1 {
+  height: 106px;
+}
+
+.gridl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.mar {
+  margin-left: 1%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
