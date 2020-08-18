@@ -17,17 +17,17 @@ class App extends Component {
         <nav class="navbar navbar-expand-md navbar-dark bg-dark nav1">
           <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Temas</a>
+              <li class="nav-item nav-link">
+                Temas
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Calendario</a>
+              <li class="nav-item nav-link">
+                Calendario
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Quiz</a>
+              <li class="nav-item nav-link">
+                 Quiz
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Log out/ log in</a>
+              <li class="nav-item nav-link">
+                Log out/ log in
               </li>
 
             </ul>
